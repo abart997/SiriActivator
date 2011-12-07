@@ -17,9 +17,11 @@ sudo ruby sr.rb
 
 7) Change your com.apple.assistantd.plist (System/Library/LaunchDaemons/)like that in the photo : http://cl.ly/2i3n2X3L3k372g2N0y07
 
-8)Reboot;
+8) You need also the dyld_shared_cache_armv7 for the firmware you're using. You can find it in System/Library/Caches/com.apple.dyld
 
-9)Have a good Siri.
+9)Reboot;
+
+10)Have a good Siri.
 
 ~ abart997 - Andrea Oliva ~
 
