@@ -1,0 +1,26 @@
+1)Install a Siri GUI
+
+2)Get iPhone 4S keys
+
+3)Convert sessionValidationData with sr.rb (put it in your Desktop)
+
+These are the commands:
+
+cd ~/Desktop
+sudo ruby sr.rb
+
+4)Put the siriactivator.dylib and siriactivator.plist in /Library/MobileSubstrate/DynamicLibraries
+
+5)Put your iPhone 4S keys in com.andev.siriactivator.plist
+
+6)Put com.andev.siriactivator.plist in /var/mobile/Library/Preferences
+
+7) Change your com.apple.assistantd.plist (System/Library/LaunchDaemons/)like that in the photo : http://cl.ly/2i3n2X3L3k372g2N0y07
+
+8)Reboot;
+
+9)Have a good Siri.
+
+~ abart997 - Andrea Oliva ~
+
+
