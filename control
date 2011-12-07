@@ -1,0 +1,9 @@
+Package: com.abart997.siriactivator
+Name: siriactivator
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Activate Siri on iPhone 4 and iPod Touch 4
+Maintainer: Andrea Oliva
+Author: Andrea Oliva
+Section: Tweaks
