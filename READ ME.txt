@@ -1,27 +1,31 @@
 1)Install a Siri GUI
 
-2)Get iPhone 4S keys
+2)Make the .crt file following this : http://pastie.org/private/o7bglognyjbjmmo0mxyjgw
 
-3)Convert sessionValidationData with sr.rb (put it in your Desktop)
+3)Send the .crt file to your iPhone 4S and install it
+
+4)Get iPhone 4S keys following this : http://pastie.org/private/zxnhjtnafgtfwj2etiqcq
+
+5)Convert sessionValidationData with sr.rb (put it in your Desktop)
 
 These are the commands:
 
 cd ~/Desktop
 sudo ruby sr.rb
 
-4)Put the siriactivator.dylib and siriactivator.plist in /Library/MobileSubstrate/DynamicLibraries
+6)Put the siriactivator.dylib and siriactivator.plist in /Library/MobileSubstrate/DynamicLibraries
 
-5)Put your iPhone 4S keys in com.andev.siriactivator.plist
+7)Put your iPhone 4S keys in com.andev.siriactivator.plist
 
-6)Put com.andev.siriactivator.plist in /var/mobile/Library/Preferences
+8)Put com.andev.siriactivator.plist in /var/mobile/Library/Preferences
 
-7) Change your com.apple.assistantd.plist (System/Library/LaunchDaemons/)like that in the photo : http://cl.ly/2i3n2X3L3k372g2N0y07
+9) Change your com.apple.assistantd.plist (System/Library/LaunchDaemons/)like that in the photo : http://cl.ly/2i3n2X3L3k372g2N0y07
 
-8) You need also the dyld_shared_cache_armv7 for the firmware you're using. You can find it in System/Library/Caches/com.apple.dyld
+10) You need also the dyld_shared_cache_armv7 for the firmware you're using. You can find it in System/Library/Caches/com.apple.dyld
 
-9)Reboot;
+11)Reboot;
 
-10)Have a good Siri.
+12)Have a good Siri.
 
 ~ abart997 - Andrea Oliva ~
 
