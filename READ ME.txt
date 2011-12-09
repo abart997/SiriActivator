@@ -1,6 +1,9 @@
 1)Install a Siri GUI
 
-2)Make the .crt file following this : http://pastie.org/private/o7bglognyjbjmmo0mxyjgw
+2)To make the certificates files (put certificatemaker.php in the Desktop) and write this in the terminal:
+
+cd ~/Desktop
+php certificatemaker.php
 
 3)Send the .crt file to your iPhone 4S and install it
 
